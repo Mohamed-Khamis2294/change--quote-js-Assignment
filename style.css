@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+}
+body{
+  font-family: "Roboto", sans-serif;
+}
+.quote-font{
+  font-family: "Poetsen One", sans-serif;
+}
+.flex{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  gap: 50px;
+  background-image: linear-gradient(#ebe3e3,#bebebe);
+}
+h1{
+  font-size: 100px;
+  font-weight: 900;
+}
+p{
+  font-size: 24px;
+}
+button{
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgb(214, 108, 37);
+  color: aliceblue;
+  padding: 8px 16px;
+  border:none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+}
+button:hover{
+  color: rgb(214, 108, 37);
+  background-color: #fff;
+}
